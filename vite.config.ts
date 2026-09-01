@@ -1,10 +1,16 @@
 import path from 'node:path';
 import mdx from '@mdx-js/rollup';
 import react from '@vitejs/plugin-react';
+import { loadEnv } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { defineConfig } from 'vitest/config';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const { VITE_BASE_PATH } = loadEnv(mode, process.cwd(), '');
+  const base = VITE_BASE_PATH || '/';
+
+  return {
+  base,
   plugins: [
     mdx(),
     react(),
@@ -18,7 +24,7 @@ export default defineConfig({
         theme_color: '#EDE3C8',
         background_color: '#F4EDD8',
         display: 'standalone',
-        start_url: '/',
+        start_url: base,
         icons: [
           {
             src: '/icons/icon.svg',
@@ -48,4 +54,5 @@ export default defineConfig({
     include: ['tests/unit/**/*.{test,spec}.{ts,tsx}'],
     exclude: ['tests/e2e/**']
   }
+  };
 });
