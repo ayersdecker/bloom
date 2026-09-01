@@ -1,2 +1,3 @@
 # bloom
-TBD
+
+The Bloom Lectern companion web app.

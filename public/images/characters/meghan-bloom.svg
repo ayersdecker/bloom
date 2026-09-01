@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#F4EDD8"/>
+  <circle cx="400" cy="320" r="150" fill="#A67C3D" fill-opacity="0.25"/>
+  <path d="M250 760c40-150 90-220 150-220s110 70 150 220" stroke="#7A2422" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="400" cy="300" r="90" fill="#7A2422" fill-opacity="0.8"/>
+  <text x="400" y="900" text-anchor="middle" fill="#241C15" font-size="64" font-family="serif">Meghan Bloom</text>
+</svg>

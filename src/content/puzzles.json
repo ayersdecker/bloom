@@ -1,0 +1,29 @@
+[
+  {
+    "type": "cipher",
+    "id": "rose-cipher",
+    "code": "rose",
+    "title": "Rose Cipher",
+    "plaintext": "BLOOM",
+    "shift": 3,
+    "fragment": "The roots remember"
+  },
+  {
+    "type": "lock",
+    "id": "sigil-lock",
+    "code": "sigil",
+    "title": "Sigil Lock",
+    "symbols": ["Sun", "Rose", "Moon"],
+    "target": [0, 2, 1],
+    "fragment": "the petals endure"
+  },
+  {
+    "type": "dial",
+    "id": "star-dial",
+    "code": "star",
+    "title": "Star Dial",
+    "targetDegrees": 90,
+    "toleranceDegrees": 15,
+    "fragment": "and the bloom returns."
+  }
+]
