@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+.tmp
+/tmp
+/tmp/
+tmp
+*.tsbuildinfo

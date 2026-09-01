@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "meghan-bloom",
+    "name": "Meghan Bloom",
+    "role": "Head of the Bloom line",
+    "summary": "The society's founder, and the reason it has survived this long.",
+    "bio": "Courted by Jacob, who is Avair in secret, Meghan built the Bloom line on ritual, secrecy, and mercy in equal measure.",
+    "portrait": "/images/characters/meghan-bloom.svg",
+    "tags": ["Bloom loyalist", "Founder"]
+  },
+  {
+    "slug": "jacob-avair",
+    "name": "Jacob Avair",
+    "role": "Rival emissary",
+    "summary": "A suitor whose allegiance is sharper than his smile.",
+    "bio": "Jacob moves through Bloom history with velvet grace and a private agenda that still stains the archive.",
+    "portrait": "/images/characters/jacob-avair.svg",
+    "tags": ["Avair", "Intrigue"]
+  }
+]
